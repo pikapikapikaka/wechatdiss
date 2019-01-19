@@ -1,0 +1,46 @@
+<!--question.wxml-->
+<view class="container ">
+    <view class="question-wrp">
+        <view class="question-item">
+            <view class="que-title">
+               求一首宋词
+            </view>
+            <view class="que-content">
+                一个超级懒的同学
+            </view>
+            <view class="que-follow">
+                <view class="left">
+                    <view class="watch">
+                        <image src="../../images/eye.png"></image>
+                        <text>赞：3316</text>
+                    </view>
+                    <view class="comment">
+                        <image src="../../images/comment2.png"></image>
+                        <text>评论：27</text>
+                    </view>
+                </view>
+                <view class="right">
+                   点赞
+                </view>
+            </view>
+        </view>
+        <view class="que-operate flex-wrp" >
+            <view class="invite flex-item" bindtap='submit'>
+                <image src="../images/gou.jpg"></image>
+                <text>发表</text>
+            </view>
+            <view class="write flex-item" bindtap='clear'>
+                <image src="../images/no.jpg"></image>
+                <text>清空</text>
+            </view>
+        </view>
+    </view>
+ <textarea placeholder='在这里输入你想说的话' bindinput='input' class="Text" value="{{res}}"></textarea>  
+        
+        
+
+
+
+    
+</view>
+

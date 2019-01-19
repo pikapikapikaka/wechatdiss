@@ -1,0 +1,24 @@
+/* pages/reback/reback.wxss */
+.foot{
+  position: fixed;
+	bottom: 0;
+	width: 100%;
+  
+}
+.space{
+  height:300rpx;
+}
+.version{
+  position: fixed;
+  font-size: 50rpx;
+  font-display: initial;
+  display: table-cell;
+  vertical-align:middle;
+  text-align:center;
+  background-color: #ffeef0;
+}
+
+.bg{
+  height: 1100rpx;
+  background-color: #ffeef0;
+}

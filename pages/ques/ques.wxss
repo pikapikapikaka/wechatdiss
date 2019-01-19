@@ -1,0 +1,24 @@
+/* pages/ques/ques.wxss */
+.foot{
+  position: fixed;
+	bottom: 0;
+	width: 100%;
+  
+}
+
+.back{
+  background-color: #F0FFFF;
+}
+
+.Value{
+  background-color: #ffffff;
+}
+
+.pic {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.Value{
+  width:690rpx;
+}

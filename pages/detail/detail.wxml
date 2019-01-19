@@ -1,0 +1,55 @@
+<!--answer.wxml-->
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">求一首宋词</text>
+    </view>
+    <view class="answerer-wrp">
+        <view class="bg-half"></view>
+        <view class="answerer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="../../images/icon1.jpeg"></image>
+            </view>
+        </view>
+    </view>
+    <view class="answer-content">
+        <text>平林漠漠烟如织，寒山一带伤心碧。暝色入高楼，有人楼上愁。
+      玉阶空伫立，宿鸟归飞急。何处是归程？长亭连短亭。
+
+        </text>
+        <view class="answer-footer flex-wrp">
+        <view class="good flex-item">
+            <view class="good-num">下一个答案</view>
+        </view>
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+                <view class="operation-btn flex-item">
+                    <image src="../images/flag.png"></image>
+                    <text>没有帮助</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../images/zan.png"></image>
+                    <text>赞</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../images/nozan.jpg"></image>
+                    <text>踩</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../images/comment.png"></image>
+                    <text>评论</text>
+                </view>
+
+            </view>
+        
+
+
+
+    </view>
+
+   
+
+
+    </view>
+  </view>
+</view>
+

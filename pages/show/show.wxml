@@ -1,0 +1,198 @@
+<!--question.wxml-->
+<!--对应问题的描述页-->
+<view class="container">
+    <view class="question-wrp">
+        <view class="question-item">
+            <view class="que-title">
+                求一首宋词
+            </view>
+            <view class="que-content">
+                求一首好听的宋词,要求委婉动听，并且曲调悠扬。
+            </view>
+            <view class="que-follow">
+                <view class="left">
+                    <view class="watch">
+                        <image src="../../images/eye.png"></image>
+                        <text>作者：一位不愿透露姓名的喵喵喵</text>
+                    </view>
+                    <view class="comment">
+                        <image src="../../images/comment2.png"></image>
+                        <text>评论：10</text>
+                    </view>
+                </view>
+                <view class="right" bindtap='comment'>
+                    评论
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="answer-feed">
+        <view  bindtap="bindItemTap" id='{{25}}' class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">平林漠漠烟如织，寒山一带伤心碧。暝色入高楼，有人楼上愁。
+玉阶空伫立，宿鸟归飞急。何处是归程？长亭连短亭。 </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3000 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>评论功能暂未开放 </a>
+                        </view>
+                        <view class="time">
+                            <a>2018/10/10</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <text>ken</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">伫倚危楼风细细，望极春愁，黯黯生天际。草色烟光残照里，无言谁会凭阑意.
+拟把疏狂图一醉，对酒当歌，强乐还无味。衣带渐宽终不悔，为伊消得人憔悴。. </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3001 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>评论功能暂未开通 </a>
+                        </view>
+                        <view class="time">
+                            <a>2018/11/01</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">长忆观潮，满郭人争江上望。来疑沧海尽成空。万面鼓声中。 
+弄潮儿向涛头立。手把红旗旗不湿。别来几向梦中看。梦觉尚心寒。</text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3002 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>评论功能暂未开放 </a>
+                        </view>
+                        <view class="time">
+                            <a>2018/11/12</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    
+                    <text>Ann</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">碧云天，黄叶地。秋色连波，波上寒烟翠。山映斜阳天接水。芳草无情，更在斜阳外。
+黯乡魂，追旅思。夜夜除非，好梦留人睡。明月楼高休独倚。酒入愁肠，化作相思泪。 </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3003 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>评论功能暂未开放 </a>
+                        </view>
+                        <view class="time">
+                            <a>2018/12/01</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <text>Monkey</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">自春来、惨绿愁红，芳心是事可可。日上花梢，莺穿柳带，犹压香衾卧。暖酥消、腻云亸，终日厌厌倦梳裹。无那。恨薄情一去，音书无个。
+早知恁么，悔当初、不把雕鞍锁。向鸡窗，只与蛮笺象管，拘束教吟课。镇相随、莫抛躲，针线闲拈伴伊坐。和我，免使年少，光阴虚过。 </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3005 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>评论功能暂未开放 </a>
+                        </view>
+                        <view class="time">
+                            <a>2018/12/30</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <text>Sabi</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的... </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>1225点赞 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>评论功能暂未开放 </a>
+                        </view>
+                        <view class="time">
+                            <a>2019/1/14</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+

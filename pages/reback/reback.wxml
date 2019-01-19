@@ -1,0 +1,5 @@
+<!--pages/reback/reback.wxml-->
+<view class="bg">
+  <textarea placeholder='留下你最宝贵的意见，我们会认真改进的，当然如果能留下联系方式的话，帅气的工程师小哥哥会加好友的哦' bindinput='input'></textarea>
+  <button class='foot'  bindtap='submit' >提交</button>
+</view>

@@ -1,0 +1,24 @@
+<!--pages/ques/ques.wxml-->
+<view class="back">
+<form bindsubmit='fromSubmit'>
+<!--<view wx:if="{{con == 'study'}}">
+<label>老师:</label><input class='Value' bindinput='teacherF'></input>
+<label>课程名称:</label><input class='Value' bindinput='courseF'></input>
+</view>-->
+<text>标题：</text>
+<input class="Value" focus='true' bindinput='titleInputF'></input>
+<text>问题描述：</text>
+<textarea class="Value" maxlength='256' placeholder="最多输入256汉字" bindinput='contentInputF'></textarea>
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{niming}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}" />
+    {{item.value}}
+  </label>
+</radio-group>
+ <view class="btn-area">
+    
+    <button form-type="reset"><image src="../images/cha.jpg" class="pic"></image></button>
+  </view>
+</form>
+<button class='foot'  bindtap='submit'>提交</button>
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages":[
+   "pages/person/person",
+    "pages/welcome/index",
+    "pages/show/show",
+    "pages/ques/ques",
+    "pages/detail/detail",
+    "pages/logs/logs",
+    "pages/comment/comment",
+    "pages/reback/reback",
+    "pages/myquestion/myquestion",
+    "pages/myanswer/myanswer",
+    "pages/mylove/mylove"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Diss",
+    "enablePullDownRefresh": true,
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/welcome/index",
+        "text": "",
+        "iconPath": "pages/images/chat.png",
+        "selectedIconPath": "pages/images/chat_focus.png"
+      },
+      {
+        "pagePath": "pages/ques/ques",
+        "text": "",
+        "iconPath": "pages/images/add.png",
+        "selectedIconPath":"pages/images/add_focus.jpg"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "",
+        "iconPath": "pages/images/ring.png",
+        "selectedIconPath": "pages/images/ring_focus.png"
+      }
+    ]
+  }
+}

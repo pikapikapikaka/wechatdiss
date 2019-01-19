@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+<text>{{info}}</text>
+  <view class="userinfo">
+    <button  wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap='login'> 授权 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view><image src='{{arrow}}' class='info'></image><image src='../images/login.jpg' class='logininfo' bindtap='login'></image></view>
+
+
+  <view class="usermotto">
+  <view>在这里你会发现最认真的吐槽</view>
+  <view class="con">在这里你可以看到同学们认真的反馈</view>
+  <view class='con'>在这里你可以说你任何想说的话</view>
+  <view class='con'>在这里你可以分享各种资源</view>
+  <view class='con'>在这里你可以。。。emm，工程师还没想好</view>
+  <view class='notice' bindtap='look'>点击美工的头像登录！！</view>
+ 
+  </view>
+   <view class='sm'>声明：此项目来自北大软微18级</view>  
+</view>
